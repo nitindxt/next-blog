@@ -33,7 +33,7 @@ export default function Layout({
           <>
             <Image
               priority
-              src="/images/profile.png"
+              src="/images/profile.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -47,15 +47,15 @@ export default function Layout({
               <a>
                 <Image
                   priority
-                  src="/images/profile.png"
+                  src="/images/profile.jpg"
                   className={utilStyles.borderCircle}
-                  height={144}
-                  width={144}
+                  height={108}
+                  width={108}
                   alt={name}
                 />
               </a>
             </Link>
-            <h2 className={utilStyles.heading2Xl}>
+            <h2 className={utilStyles.headingLg}>
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>

@@ -21,10 +21,20 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I am a Frontend Engineer.</p>
+        <p>Hi! I&apos;m a Frontend Developer.</p>
+        <p>I build with :</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS (Tailwind, ChakraUI)</li>
+          <li>JS / TS</li>
+          <li>React (Next.js)</li>
+          <li>
+            Git / <a href="https://github.com/nitinajaydixit">Github</a>
+          </li>
+        </ul>
         <p>
-          Connect with me on {""}
-          <a href="https://github.com/nitinajaydixit">Github.</a>
+          Let&apos;s talk 🙊: {""}
+          <a href="https://twitter.com/ThatNitinDixit">Twitter</a>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
