@@ -21,13 +21,14 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi! I&apos;m a Frontend Developer.</p>
+        <p>Hi👋🏻 I&apos;m a Web Developer from India.</p>
         <p>I build with :</p>
         <ul>
           <li>HTML</li>
           <li>CSS (Tailwind, ChakraUI)</li>
           <li>JS / TS</li>
           <li>React (Next.js)</li>
+          <li>Node.js</li>
           <li>
             Git / <a href="https://github.com/nitinajaydixit">Github</a>
           </li>
